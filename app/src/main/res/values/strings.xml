@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GeoTask 1.0</string>
+    <string name="tab_from_name">From</string>
+    <string name="tab_to_name">To</string>
+    <string name="find_path_button_label">Show path</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="server_response_explanation">Server response:</string>
+    <string name="found_message">Found</string>
+    <string name="unknown_message">Unknown</string>
+    <string name="title_request_activity">Enter route parameters</string>
+    <string name="hint_address_edit_text">Enter address or coordinates</string>
+    <string name="no_data_string">"No data. The address is not entered or the device is not connected to the Internet. Please enter the address, check the connection and try again."</string>
+    <string name="hint_marker_of_user_location">The user\'s location</string>
+    <string name="explanation_locations_not_found">The locations not found. Please try again.</string>
+</resources>

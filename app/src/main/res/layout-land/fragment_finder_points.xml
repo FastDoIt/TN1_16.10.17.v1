@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fragmentContainerAddressToListResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:paddingBottom="@dimen/padding_top_fragment_finder_points_land"
+        tools:layout="@layout/fragment_address_to_list_results"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainerShowerOnMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:paddingTop="@dimen/padding_top_fragment_finder_points_land"
+        tools:layout="@layout/fragment_show_point_on_map"/>
+
+</LinearLayout>

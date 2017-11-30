@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_padding">0dp</dimen>
+    <dimen name="activity_vertical_padding">0dp</dimen>
+    <dimen name="layout_padding">0dp</dimen>
+    <dimen name="padding_fragment_address_to_list_results">0dp</dimen>
+    <dimen name="padding_top_fragment_finder_points_land">0dp</dimen>
+    <dimen name="text_server_response_explanation_padding_left">16dp</dimen>
+    <dimen name="text_result_activity_padding_top">16dp</dimen>
+    <dimen name="text_server_response_padding_left">4dp</dimen>
+    <dimen name="fragment_map_result_activity_margin">0dp</dimen>
+    <dimen name="horizontal_margin_cardview_xlarge">80dp</dimen>
+    <dimen name="vertical_margin_cardview_xlarge">160dp</dimen>
+    <dimen name="horizontal_margin_cardview_xlarge_land">160dp</dimen>
+    <dimen name="vertical_margin_cardview_xlarge_land">80dp</dimen>
+    <dimen name="margin_cardview_xlarge">32dp</dimen>
+</resources>

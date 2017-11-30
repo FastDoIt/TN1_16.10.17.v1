@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- strings of DeviceLocationManager -->
+    <string name="explanation_run_available_work_location">"There is no permission to determine the location of device. The work of the program will be continued without determine of the device location."</string>
+    <string name="permission_isnt_granted_location">"Determine the location of the device isn't granted."</string>
+    <string name="explanation_settings_activity_location">"Open Permissions and grant the determine the location of the device"</string>
+    <string name="location_permission_explanation">"The location permission is needed to show the location of user on map"</string>
+    <string name="no_location_detected">"No location detected. Make sure location is enabled on the device. The work of the program will continue without displaying the user\'s coordinates."</string>
+
+</resources>

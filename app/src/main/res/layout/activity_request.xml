@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="by.supercoder.tasknumber1.requestactivity.RequestActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_background"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding"
+            android:paddingBottom="@dimen/activity_vertical_padding"
+            android:paddingLeft="@dimen/activity_horizontal_padding"
+            android:paddingRight="@dimen/activity_horizontal_padding"
+            android:paddingTop="@dimen/activity_vertical_padding"
+            tools:context=".requestactivity.RequestActivity">
+
+                            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/buttonShowPath"
+                    android:layout_alignParentLeft="true">
+
+                    <TabHost
+                        android:id="@+id/tabHost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="top|left|bottom|right"
+                            android:orientation="vertical">
+
+                            <TabWidget
+                                android:id="@android:id/tabs"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"></TabWidget>
+
+                            <FrameLayout
+                                android:id="@android:id/tabcontent"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingBottom="@dimen/padding_fragment_address_to_list_results"
+                                android:paddingLeft="@dimen/padding_fragment_address_to_list_results"
+                                android:paddingRight="@dimen/padding_fragment_address_to_list_results">
+
+                                <RelativeLayout
+                                    android:id="@+id/tab_from"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <FrameLayout
+                                        android:id="@+id/fragmentContainerFinderPointsFrom"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        tools:layout="@layout/fragment_finder_points">
+
+                                    </FrameLayout>
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/tab_to"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <FrameLayout
+                                        android:id="@+id/fragmentContainerFinderPointsTo"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        tools:layout="@layout/fragment_finder_points" />
+                                </RelativeLayout>
+                            </FrameLayout>
+                        </LinearLayout>
+                    </TabHost>
+
+                </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonShowPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:singleLine="false"
+                android:text="@string/find_path_button_label" />
+
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+    <!--
+    android:background="@drawable/item_selector"
+    -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="9"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Fhkjh a laksj hfdkalsj hfadlskf jakjlsdfh aldkfj ada"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textStyle="normal"
+
+            android:gravity="center_vertical">
+        </TextView><!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+
+        <TextView
+            android:id="@+id/coordinatesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:text="10.0054454, 10.020215"
+            android:paddingRight="6dip"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+    >
+        </TextView><!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center_vertical">
+        <RadioButton
+            android:id="@+id/selectRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:checked="false"
+            android:focusable="false"
+            android:clickable="false"
+            android:src="?android:attr/textCheckMarkInverse"
+            android:paddingRight="8dp" />
+    </FrameLayout>
+
+</LinearLayout>

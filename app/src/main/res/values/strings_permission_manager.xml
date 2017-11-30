@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- strings of PermissionManager -->
+    <string name="explanation_run_available_work">"There is no permission to … . The work of the program will be continued without … ."</string>
+    <string name="permission_isnt_granted">"The required permission was not granted. The work of the program will be continued. Will be executed only allowed actions."</string>
+    <string name="settings_button">"SETTINGS"</string>
+    <string name="explanation_settings_activity">"Open Permissions and grant the … permission"</string>
+    <string name="permission_explanation">"The location permission is needed to show the location of user on map"</string>
+    <string name="grant_button">"GRANT"</string>
+
+</resources>
